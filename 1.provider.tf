@@ -11,7 +11,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = "sreeterraformbucket"
+    bucket = "gangaterraformbucket01"
     key    = "ansible-b43.tfstate"
     region = "us-east-1"
   }
