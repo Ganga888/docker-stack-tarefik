@@ -1,6 +1,6 @@
 aws_region           = "us-east-1"
 vpc_cidr             = "192.168.0.0/16"
-vpc_name             = "gangavpc"
+vpc_name             = "gangavpcnew"
 key_name             = "k8s"
 public_subnet_cidrs  = ["192.168.1.0/24", "192.168.2.0/24", "192.168.3.0/24"]    #List
 private_subnet_cidrs = ["192.168.10.0/24", "192.168.20.0/24", "192.168.30.0/24"] #List
@@ -17,5 +17,5 @@ amis = {
 }
 projid                = "PHOENIX-123"
 imagename             = "ami-0149b2da6ceec4bb0"
-vpc_peering_id        = "vpc-0eac6d4d55868caa8"
-vpc_peering_subnet_id = "subnet-0d124b5eb12011584"
+vpc_peering_id        = "vpc-0dc35a596282cd1ef"
+vpc_peering_subnet_id = "subnet-083931df9b228b2af"
